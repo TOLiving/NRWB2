@@ -1,0 +1,103 @@
+/*Whenever I make a real document make sure that everything is nice and 
+symmetrical, or as close to symmetrical as I can get*/
+/*CSS is a lot about learning how to make visually appealing websites, 
+and the better that I become at creating said websites the more likely
+it will be for me to get a job :)*/
+h1, h2, p {
+    text-align: center;
+}
+body {
+    /*background-color: burlywood;*/
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+/*. is used to define classes and to use div multiple times with multiple
+customizations for pages*/
+.menu {
+  width: 80%;
+  /*can use percentages or pixels for sizes*/
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  /*
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  can be shortened to:*/
+  padding: 20px;
+  max-width: 500px;
+}
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.flavor {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+h1, h2 {
+  font-family: Impact, serif;
+}
+h1{
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+h2{
+  font-size: 30px;
+}
+.established {
+  font-style: italic;
+}
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+.bottom-line {
+  margin-top: 25px;
+}
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+a{
+  color: black;
+}
+/*shows a website/link has been visited*/  
+a:visited {
+  color: black;
+}
+/*shows that a website/link is being hovered over*/
+a:hover{
+    color: brown;
+}
+/*shows that a website/link is being clicked*/
+a:active{
+    color: brown;
+}
+.address{
+    margin-bottom: 5px;
+}
+img{
+  /*Makes images behave like heading elements*/
+  display: block;
+  /*Centers the image*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
